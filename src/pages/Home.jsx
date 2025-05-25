@@ -142,7 +142,12 @@ function Home() {
           VIEW ALL
         </button>
       </section>
-      <section className="flex  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10 bg-[url('./public/help.png')] bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36 ">
+      <section
+        className="flex  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10  bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36 "
+        style={{
+          backgroundImage: "url('help.png')",
+        }}
+      >
         <div className="flex flex-col gap-3">
           <h1 className="text-xl md:text-3xl font-bold text-white">
             WE'RE HERE TO HELP!
@@ -156,7 +161,12 @@ function Home() {
           </button>
         </div>
       </section>
-      <section className="flex flex-col md:flex-row  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10 bg-[url('./public/banner-img-spyro.png')] bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36">
+      <section
+        className="flex flex-col md:flex-row  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10 bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36"
+        style={{
+          backgroundImage: "url('banner-img-spyro.png')",
+        }}
+      >
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl md:text-5xl font-bold text-sky-700">
             HAVE FUN

@@ -142,7 +142,12 @@ function About() {
     <>
       <div className=" h-15 bg-black"></div>
 
-      <section className="bg-[url('./public/activision-hero.png')]  bg-center bg-no-repeat bg-cover h-[50vh]"></section>
+      <section
+        className="bg-center bg-no-repeat bg-cover h-[50vh]"
+        style={{
+          backgroundImage: "url('activision-hero.png')",
+        }}
+      ></section>
       <section className="flex flex-col items-center justify-center space-y-3  py-5  md:space-y-5  md:py-10 lg:space-y-10 lg:py-20 bg-black text-white px-5 md:px-20 lg:px-36">
         <h1 className="text-2xl md:text-4xl font-bold">Our Mission</h1>
         <hr className=" border-neutral-600 w-full" />
@@ -252,7 +257,12 @@ function About() {
           ))}
         </div>
       </section>
-      <section className="flex flex-col md:flex-row  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10 bg-[url('./public/banner-img-spyro.png')] bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36">
+      <section
+        className="flex flex-col md:flex-row  items-center justify-between space-y-5  py-5  md:space-y-10  md:py-5  lg:py-10 bg-center bg-no-repeat bg-cover text-white px-5 md:px-20 lg:px-36 "
+        style={{
+          backgroundImage: "url('banner-img-spyro.png')",
+        }}
+      >
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl md:text-5xl font-bold text-sky-700">
             HAVE FUN
