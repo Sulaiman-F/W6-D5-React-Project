@@ -52,7 +52,12 @@ function Support() {
   return (
     <>
       <div className="bg-black h-15"></div>
-      <div className="flex items-center p-5 md:pl-10 bg-[url('../public/backCD.png')] bg-cover bg-center h-[80vh]">
+      <div
+        className="flex items-center p-5 md:pl-10  bg-cover bg-center h-[80vh]"
+        style={{
+          backgroundImage: "url('backCD.png')",
+        }}
+      >
         <div className="w-[32rem] flex flex-col items-start space-y-2">
           <img
             className="w-full object-contain"
